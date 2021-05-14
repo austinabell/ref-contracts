@@ -217,7 +217,7 @@ mod tests {
 
     use near_contract_standards::fungible_token::receiver::FungibleTokenReceiver;
     use near_sdk::test_utils::{accounts, VMContextBuilder};
-    use near_sdk::{testing_env, Balance, MockedBlockchain};
+    use near_sdk::{testing_env, Balance};
     use near_sdk_sim::to_yocto;
 
     use super::*;

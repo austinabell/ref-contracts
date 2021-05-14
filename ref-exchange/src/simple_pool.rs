@@ -308,7 +308,7 @@ impl SimplePool {
 #[cfg(test)]
 mod tests {
     use near_sdk::test_utils::{accounts, VMContextBuilder};
-    use near_sdk::{testing_env, MockedBlockchain};
+    use near_sdk::testing_env;
     use near_sdk_sim::to_yocto;
 
     use super::*;

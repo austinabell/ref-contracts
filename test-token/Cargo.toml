@@ -8,7 +8,6 @@ publish = false
 [lib]
 crate-type = ["cdylib", "rlib"]
 
-
 [dependencies]
-near-sdk = { git = "https://github.com/near/near-sdk-rs", rev = "9d99077" }
-near-contract-standards = { git = "https://github.com/near/near-sdk-rs", rev = "9d99077" }
+near-sdk = { path = "../../../near/near-sdk-rs/near-sdk" }
+near-contract-standards = { path = "../../../near/near-sdk-rs/near-contract-standards" }
